@@ -1,0 +1,262 @@
+/* Home */
+body
+{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+}
+.main-page{
+    background-image:url('./images/hero-bg.png');
+    height:893px;
+}
+.navbar{
+    color:white;
+    height:50px;
+    font-size: large;
+    font-family:sans-serif;
+}
+.left-side{
+    float:left;
+    width:40%;
+    height:350px;
+    margin-top: 160px;
+}
+.contain{
+    margin-left: 70px;
+}
+.crypto-title{
+    font-size:35px;
+    color: white;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+.crypto-desc{
+    color:white;
+}
+.btn-div{
+    margin-top: -70px;
+}
+button:hover{
+    cursor: pointer;
+}
+.btn-home{
+    background-color:rgb(11, 204, 204);
+    width: 170px;
+    height: 45px;
+    color:white;
+    border-style: none;
+}
+.right-side{
+    float: left;
+    width: 60%;
+    height:540px;
+}
+a:hover,.navbar ul a:hover{
+    color:rgb(11, 204, 204);
+}
+.navbar ul a{
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.slide-img{
+    padding-left: 150px;
+    padding-top:90px;
+    width: 75%;
+    height: 75%;
+}
+.footer{
+    clear: both;
+    background-color:#00204a;
+    height: 300px;
+}
+.footer,.address , .address a{
+    color:white;
+}
+.address,.info,.links{
+    float: left;
+    width: 20%;
+    padding-top: 30px;
+    padding-left: 60px;
+    line-height: 2;
+}
+.subscribe{
+    float: left;
+    width: 20%;
+    padding-top: 30px;
+}
+.links ul{
+    padding: 0;
+    margin: 0;
+}
+.links li{
+    left:0;
+    clear: both;
+}
+.info{
+    line-height: 1.7;
+}
+.address-above{
+clear: both;
+float:left;
+}
+.address-below{
+    clear:both;
+}
+.address-below a{
+    padding-right: 10px;
+}
+.address-above a i{
+    padding-right: 10px;
+}
+ul{
+    list-style-type:none;
+    position: absolute;
+}
+li{
+    font-family: sans-serif;
+    float:left;
+    position:relative;
+    left:650px;
+    padding-right: 45px;
+}
+.logo{
+   left:0;
+}
+.btn-subscribe{
+    margin: 0;
+    padding: 0;
+    margin-top:15px;
+    background-color: #00bbf0;
+    text-align: center;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 40px;
+}
+/* Services */
+.title{
+    clear:both;
+    height: 80px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.one-service{
+   margin-top: 50px;
+   margin-left: 70px;
+   font-family: sans-serif;
+   float:left;
+    width:26%;
+    height: 300px;
+    background-color: #f8f8f9;
+}
+.contain-service{
+    margin-top: 25px;
+}
+.contain-service a{
+    color:rgb(30, 49, 49);
+    font-weight: 600;
+}
+.img-service{
+    width:80px;
+    height: 80px;
+}
+.btn{
+    clear: both;
+    margin-left: 570px;
+}
+button{
+    margin-top: 70px;
+}
+/* about */
+.about-page{
+    background-color:#00204a;
+    padding-top:10px;
+    height: 700px;
+    color:white;
+}
+.left-side-about{
+    float: left;
+    width: 50%;
+    height: 350px;
+}
+.about-img{
+    width: 600px;
+    margin-left: 70px;
+}
+.right-side-about{
+    float: left;
+    width: 40%;
+    padding-top: 70px;
+    padding-left:25px;
+    line-height: 22px;
+}
+.btn-about{
+    font-size: 15px;
+    margin-top: 25px;
+    background-color:#00bbf0;
+    width: 170px;
+    height: 45px;
+    color:white;
+    border-style: none;
+}
+/*team */
+.team-page{
+    text-align: center;
+    background-color: #00204a;
+    color: #ffffff;
+    height: 607px;
+    clear: both;
+}
+.team-section{
+    padding:70px 0;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.team1{
+    float:left;
+    margin-left:32px;
+    margin-top: 30px;
+    width:22%;
+    height:320px;
+    background: linear-gradient(to bottom, #002759, #002b64);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.team-details{
+    font-weight: 500;
+    line-height: 15px;
+}
+.contain-img{
+    padding-top: 30px;
+}
+.img-team{
+    width: 120px;
+    border-radius: 100%;
+    border: 5px solid #ffffff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.social-team{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.social-team a{
+    margin-right: 25px;
+    color: #ffffff;
+    background-color: transparent;
+}
